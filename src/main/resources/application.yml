@@ -11,7 +11,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.zaxxer.hikari.HikariDataSource
     hikari:
-      maximum-pool-size: 10
+      maximum-pool-size: 15
       max-lifetime: 30000
       idle-timeout: 30000
       data-source-properties:
