@@ -2,6 +2,8 @@ package com.yym.springbootdemo.repo.mapper;
 
 import com.yym.springbootdemo.repo.entity.TUser;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Repository;
 
 /**
  * <p>
